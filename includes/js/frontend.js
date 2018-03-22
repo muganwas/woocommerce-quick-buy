@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 
-    jQuery().on('click', '.wcqb_button', function(){
+    jQuery(document).on('click', '.wcqb_button', function(){
         var product_id = jQuery(this).attr('data-product-id');
         var product_type = jQuery(this).attr('data-product-type');
         var selected = jQuery('form.cart input#wc_quick_buy_hook_'+product_id);
